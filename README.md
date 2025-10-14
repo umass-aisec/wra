@@ -2,7 +2,7 @@
 
 This repository contains the code and notebooks accompanying our paper:
 
-[**Network-Level Prompt and Trait Leakage in Local Research Agents**](https://arxiv.org/pdf/2508.20282)
+[**Network-Level Prompt and Trait Leakage in Local Research Agents**](https://arxiv.org/abs/2508.20282)
 
 [Dataset](https://huggingface.co/datasets/juniworld/prompt_inference_traces)
 

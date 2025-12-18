@@ -34,7 +34,7 @@ wra/
     ├── trace_collection-openai-deep_research.ipynb    # agent run via OpenAI Deep Research API
     ├── prompt_rewriting.ipynb    
     ├── human_vs_agent_traffic.ipynb    
-    └── defense.ipynb                 # decoy prompt defense experiments
+    └── defense.ipynb             # decoy prompt defense experiments
 └── trait_inference/              # code/notebooks for trait inference
     ├── trait_inference_experiment.ipynb
     ├── trait_inference_persona.ipynb

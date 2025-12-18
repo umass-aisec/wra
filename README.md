@@ -118,10 +118,10 @@ export GOOGLE_API_KEY=...
 
 Run the following notebooks to generate traces and evaluate reconstruction:
 
-- [gpt-researcher.ipynb](./gpt-researcher.ipynb)  
-- [autogen.ipynb](./autogen.ipynb)  
-- [browser-use.ipynb](./browser-use.ipynb)  
-- [openai-deep_research.ipynb](./openai-deep_research.ipynb)
+- [gpt-researcher.ipynb](./prompt_reconstruction/trace_collection-gpt-researcher.ipynb)  
+- [autogen.ipynb](./prompt_reconstruction/trace_collection-autogen.ipynb)  
+- [browser-use.ipynb](./prompt_reconstruction/trace_collection-browser-use.ipynb)  
+- [openai-deep_research.ipynb](./prompt_reconstruction/trace_collection-openai-deep_research.ipynb)
 
 These notebooks generate domain traces from TREC prompts.  
 You can then evaluate reconstruction using **ICL vs. fine-tuning** under multiple LLMs.  

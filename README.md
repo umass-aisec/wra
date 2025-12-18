@@ -27,16 +27,18 @@ We further evaluate a **decoy-prompt defense** that aims to hide or block sensit
 wra/
 ├── data/                         # datasets (TREC topics, sessions, DD2016)
 ├── figures/                      # exported plots
-├── prompt_reconstruction/        # code/notebooks for prompt reconstruction
-├── trait_inference/              # code/notebooks for trait inference
-├── autogen.ipynb                 # agent run via AutoGen
-├── browser-use.ipynb             # agent run via Browser-Use
-├── gpt-researcher.ipynb          # agent run via GPT-Researcher
-├── openai-deep_research.ipynb    # agent run via OpenAI Deep Research API
-├── defense.ipynb                 # decoy prompt defense experiments
-├── trait_inference_experiment.ipynb
-├── trait_inference_persona.ipynb
-├── trait_inference_visualization.ipynb
+└── prompt_reconstruction/        # code/notebooks for prompt reconstruction
+    ├── trace_collection-autogen.ipynb                 # agent run via AutoGen
+    ├── trace_collection-browser-use.ipynb             # agent run via Browser-Use
+    ├── trace_collection-gpt-researcher.ipynb          # agent run via GPT-Researcher
+    ├── trace_collection-openai-deep_research.ipynb    # agent run via OpenAI Deep Research API
+    ├── prompt_rewriting.ipynb    
+    ├── human_vs_agent_traffic.ipynb    
+    └── defense.ipynb                 # decoy prompt defense experiments
+└── trait_inference/              # code/notebooks for trait inference
+    ├── trait_inference_experiment.ipynb
+    ├── trait_inference_persona.ipynb
+    └── trait_inference_visualization.ipynb
 └── OAI_CONFIG_LIST.json          # model/provider configuration
 ```
 ---
